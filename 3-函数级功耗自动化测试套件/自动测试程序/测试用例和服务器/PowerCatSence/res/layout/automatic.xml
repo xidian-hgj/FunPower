@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_white">
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="远程读取" 
+        android:textSize="25dp"
+        android:textColor="@color/text_select"/>
+    <EditText 
+        android:layout_marginTop="40dp"
+        android:id="@+id/edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入服务器的IP地址"
+        />
+     <EditText 
+        android:layout_marginTop="40dp"
+        android:id="@+id/edittext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入测试的文件名"
+        />
+      <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="手机SD卡读取" 
+        android:textSize="25dp"
+        android:textColor="@color/text_select"/>
+       <EditText 
+        android:layout_marginTop="40dp"
+        android:id="@+id/edittext1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入测试的文件名"
+        />
+    <SurfaceView
+      
+        android:layout_marginTop="150dp"
+        android:id="@+id/dview"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+   		
+</LinearLayout>

@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:padding="5dp" >
+
+    <SurfaceView
+        android:id="@+id/dview"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <com.xd.powercatsence.SenceView
+        android:id="@+id/DialerMesSence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+    </com.xd.powercatsence.SenceView>
+
+    <com.xd.powercatsence.SenceView
+        android:id="@+id/videoSence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/DialerMesSence"
+        android:layout_marginTop="5dp" >
+    </com.xd.powercatsence.SenceView>
+
+    <com.xd.powercatsence.SenceView
+        android:id="@+id/tcpSence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/videoSence"
+        android:layout_marginTop="5dp" >
+    </com.xd.powercatsence.SenceView>
+    
+     
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tcpSence"
+        android:layout_marginTop="5dp"
+        android:text="上一页" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/button1"
+        android:layout_toRightOf="@id/button1"
+        android:text="下一页" />
+    
+   
+
+</RelativeLayout>

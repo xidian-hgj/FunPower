@@ -1,0 +1,8 @@
+require "power"
+
+include Power
+
+puts load_PowerData("power.dat");
+puts get_Power(0, "name", "1236195630235", "1236196216605");
+puts get_Power(0, "name", "1236195630235", "1236196645791");
+

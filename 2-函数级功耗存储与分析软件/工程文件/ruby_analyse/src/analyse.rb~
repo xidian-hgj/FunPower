@@ -1,0 +1,6 @@
+require 'analyse'
+
+include analyse
+
+puts load_PowerData("power.dat");
+puts get_Power(0, 0, 270392496102, 270394111530);

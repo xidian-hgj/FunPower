@@ -1,0 +1,20 @@
+[2014-08-25 15:55:24] [info] Service ftpd name Apache FtpServer
+[2014-08-25 15:55:24] [420  service.c] [error] 指定的服务已存在。
+[2014-08-25 15:55:24] [590  prunsrv.c] [error] Failed installing ftpd service
+[2014-08-25 15:55:24] [info] Procrun finished.
+[2014-08-25 16:06:05] [info] Service ftpd name Apache FtpServer
+[2014-08-25 16:06:05] [420  service.c] [error] 指定的服务已存在。
+[2014-08-25 16:06:05] [590  prunsrv.c] [error] Failed installing ftpd service
+[2014-08-25 16:06:05] [info] Procrun finished.
+[2014-08-25 16:12:43] [info] Service ftpd name Apache FtpServer
+[2014-08-25 16:12:43] [420  service.c] [error] 指定的服务已存在。
+[2014-08-25 16:12:43] [590  prunsrv.c] [error] Failed installing ftpd service
+[2014-08-25 16:12:43] [info] Procrun finished.
+[2014-08-25 16:35:51] [info] Service ftpd name Apache FtpServer
+[2014-08-25 16:35:51] [420  service.c] [error] 指定的服务已存在。
+[2014-08-25 16:35:51] [590  prunsrv.c] [error] Failed installing ftpd service
+[2014-08-25 16:35:51] [info] Procrun finished.
+[2014-08-25 18:47:12] [info] Service ftpd name Apache FtpServer
+[2014-08-25 18:47:12] [420  service.c] [error] 指定的服务已存在。
+[2014-08-25 18:47:12] [590  prunsrv.c] [error] Failed installing ftpd service
+[2014-08-25 18:47:12] [info] Procrun finished.

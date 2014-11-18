@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.config.gnu.exe.debug.321826073/CPLUS_INCLUDE_PATH/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.exe.debug.321826073/CPLUS_INCLUDE_PATH/operation=append
+environment/project/cdt.managedbuild.config.gnu.exe.debug.321826073/CPLUS_INCLUDE_PATH/value=/opt/android-ndk-r9/platforms/android-18/arch-arm/usr/include
+environment/project/cdt.managedbuild.config.gnu.exe.debug.321826073/LD_LIBRARY_PATH/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.exe.debug.321826073/LD_LIBRARY_PATH/operation=replace
+environment/project/cdt.managedbuild.config.gnu.exe.debug.321826073/LD_LIBRARY_PATH/value=/opt/android-ndk-r9/platforms/android-18/arch-arm/usr/lib
+environment/project/cdt.managedbuild.config.gnu.exe.debug.321826073/append=true
+environment/project/cdt.managedbuild.config.gnu.exe.debug.321826073/appendContributed=true

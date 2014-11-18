@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00FFFFFF</color>
+    
+    <!-- 主界面颜色 -->
+    <color name="bg_white">#FFFFFF</color>
+    <color name="bg_tilte_gray">#F8F8F8</color>
+    <color name="line_split">#C5C5C5</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_normal">#6F6F6F</color>
+    <color name="text_select">#007CFF</color>
+    
+ 
+     <!-- 此下色系均遵循android官方定义的设计颜色样式标准采样，可通用  -->
+    <!-- 黄色调 -->
+    <color name="bg_normal_yellow_light_alpha">#80FFBB33</color>
+    <color name="bg_normal_yellow_light_alpha_dark">#B0FFBB33</color>
+    <color name="bg_normal_yellow_light">#FFFFBB33</color>
+    <color name="bg_normal_yellow_dark_alpha">#80FF8800</color>
+    <color name="bg_normal_yellow_dark">#FFFF8800</color>
+    <!-- 绿色调 -->
+    <color name="bg_normal_green_light_alpha">#8099CC00</color>
+    <color name="bg_normal_green_light">#FF99CC00</color>
+    <color name="bg_normal_green_dark_alpha">#80669900</color>
+    <color name="bg_normal_green_dark">#FF669900</color>
+    <!-- 蓝色调 -->
+    <color name="bg_normal_blue_light_alpha">#8033B5E5</color>
+    <color name="bg_normal_blue_light">#FF33CCFF</color>
+    <color name="bg_normal_blue_dark_alpha">#800099CC</color>
+    <color name="bg_normal_blue_dark">#FF0099CC</color>
+    <!-- 红色调  -->
+    <color name="bg_normal_red_light_alpha">#80FF4444</color>
+    <color name="bg_normal_red_light">#FFFF4444</color>
+    <color name="bg_normal_red_dark_alpha">#80CC0000</color>
+    <color name="bg_normal_red_dark">#FFCC0000</color>
+    <!--  紫色调 -->
+    <color name="bg_normal_purple_light_alpha">#80AA66CC</color>
+    <color name="bg_normal_purple_light">#FFAA66CC</color>
+    <color name="bg_normal_purple_dark_alpha">#809933CC</color>
+    <color name="bg_normal_purple_dark">#FF9933CC</color>
+    
+    
+</resources>

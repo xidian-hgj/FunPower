@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="@color/bg_tilte_gray"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/si_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/si_progressbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="12dp"
+        android:gravity="center_vertical"
+        android:text="CPU全速运行"
+        android:textColor="@color/text_select"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/si_starttime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="8dp"
+        android:layout_toRightOf="@+id/si_name"
+        android:text="开始时间:12:20:20"
+        android:textColor="@color/text_normal" />
+
+    <TextView
+        android:id="@+id/si_worktime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/si_starttime"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/si_starttime"
+        android:layout_marginRight="8dp"
+        android:text="计划运行:20.10S"
+        android:textColor="@color/text_normal" />
+
+    <TextView
+        android:id="@+id/si_runtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/si_worktime"
+        android:layout_alignRight="@+id/si_worktime"
+        android:layout_below="@+id/si_worktime"
+        android:text="运行时间:10.20S"
+        android:textColor="@color/text_normal" />
+
+    <ProgressBar
+        android:id="@+id/si_progressbar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/si_info"
+        android:layout_below="@+id/si_runtime"
+        android:layout_toLeftOf="@+id/si_tooglebtn" />
+
+    <TextView
+        android:id="@+id/si_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/si_name"
+        android:layout_below="@+id/si_progressbar"
+        android:layout_toLeftOf="@+id/si_tooglebtn"
+        android:text="workId:1"
+        android:textColor="@color/text_normal" />
+
+    <EditText
+        android:id="@+id/si_config"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/si_info"
+        android:layout_below="@+id/si_info"
+        android:layout_toLeftOf="@+id/si_tooglebtn"
+        android:ems="10"
+        android:text="workId:1"
+        android:textColor="@color/text_normal"
+        android:textSize="14sp" 
+        android:padding="0dp">
+        <requestFocus />
+    </EditText>
+
+    <ToggleButton
+        android:id="@+id/si_tooglebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/si_info"
+        android:layout_alignBottom="@+id/si_info"
+        android:layout_alignRight="@+id/si_runtime"
+        android:layout_margin="6dp"
+        android:text="ToggleButton" />
+
+</RelativeLayout>

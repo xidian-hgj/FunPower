@@ -1,0 +1,8 @@
+CC = gcc
+CFLAGS = -I.
+OBJ = powercat.o ring_buffer.o cpuinfo.o infosend.o parse_params.o
+ 
+powercat: $(OBJ)
+	$(CC) -o $@ $^ $(CFLAGS)
+
+

@@ -1,0 +1,2 @@
+set solib-search-path /data/panda/funpower/workspace/powercat/obj/local/armeabi
+directory /opt/android-ndk-r9/platforms/android-3/arch-arm/usr/include /data/panda/funpower/workspace/powercat/jni /opt/android-ndk-r9/sources/cxx-stl/system
